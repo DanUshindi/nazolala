@@ -113,12 +113,12 @@ h2{
         background: url("images/image-header-desktop.jpg") hsl(277, 64%, 61%);
         background-blend-mode: multiply;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: cover; 
         background-position: center;
         height: 35%;
-        border-bottom-right-radius: .6em;
         border-top-right-radius: .6em;
-        object-fit: cover;
+        border-top-left-radius: .6em;
+        
     }
     .right{
         width: 100%;
@@ -129,7 +129,7 @@ h2{
          height: 65%;
          background: hsl(244, 38%, 16%);
          border-bottom-left-radius: .6em;
-         border-top-left-radius: .6em;
+         border-bottom-right-radius: .6em;
     }
     .small-containner {
         display: flex;
